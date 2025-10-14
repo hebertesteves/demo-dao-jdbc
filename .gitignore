@@ -1,0 +1,65 @@
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+# Ignora arquivos de compilação Java
+**/bin/
+**/build/
+**/out/
+**/target/
+
+# Ignora arquivos de IDEs (como IntelliJ, Eclipse, VSCode)
+**/.idea/
+**/.classpath
+**/.project
+**/.settings/
+**/.vscode/
+
+# Ignora arquivos temporários do sistema
+**/*.class
+**/*.log
+**/*.tmp
+**/~*
+**/*.swp
+
+# Ignora arquivos de backup
+**/*~
+**/#*#
+**/.DS_Store
+
+# Ignora arquivos gerados por Maven ou Gradle
+**/.gradle/
+**/.mvn/
+**/build/
+**/target/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
